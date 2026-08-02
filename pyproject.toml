@@ -7,7 +7,10 @@ authors = [
     { name = "blockchainarchitect9", email = "blockchainarchitect9@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.1",
+    "torch>=2.0.0",
+]
 
 [project.scripts]
 code = "code:main"
