@@ -8,9 +8,15 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "altair>=6.2.2",
+    "click>=8.4.2",
+    "datasets>=5.0.1",
+    "gputil>=1.4.0",
     "ipykernel>=7.3.0",
     "matplotlib>=3.11.1",
     "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "spacy>=3.8.13",
     "torch>=2.13.0",
 ]
 
